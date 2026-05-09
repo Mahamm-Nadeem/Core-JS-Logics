@@ -2,9 +2,7 @@
 function assignment1() {
     var name = prompt("Enter Name:");
     var age = prompt("Enter Age:");
-    var city = prompt("Enter City:");
-    
-    
+    var city = prompt("Enter City:");27
     var status = checkStatus(age); 
     
     alert("STUDENT REPORT:\nHello " + name + ", you are " + age +" years old, and live in "+ city + "\nYou are " + status);
